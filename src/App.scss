@@ -49,10 +49,14 @@
     flex-direction: row;
   }
 
+  .ratings-area {
+    margin-left: 10%;
+  }
+
   @for $i from 0 through 3 {
     .rating-bar:nth-child(#{$i}) {
       flex-direction: row;
-      margin-left: calc(5% * #{$i});
+      margin-left: calc(8% * #{$i});
     }
     .review-box:nth-child(#{$i}) {
       margin-top: calc(15px * #{$i});
