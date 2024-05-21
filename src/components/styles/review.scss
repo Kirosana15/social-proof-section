@@ -1,0 +1,26 @@
+@use "src/shared/colors";
+
+.review-box {
+  background-color: colors.$dark-magenta;
+  color: colors.$white;
+  padding: 30px;
+  height: max-content;
+  border-radius: 10px;
+}
+
+.user-badge {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.user-picture {
+  border: 1px solid transparent;
+  border-radius: 100%;
+  height: 30px;
+  width: 30px;
+  margin-right: 20px;
+}
+
+.badge {
+  color: colors.$soft-pink;
+}

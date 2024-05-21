@@ -1,0 +1,22 @@
+@use "src/shared/colors";
+.header {
+  color: colors.$dark-magenta;
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 0.9;
+  text-align: center;
+}
+
+.description {
+  color: colors.$dark-gray-magenta;
+  margin: 5% 0;
+  line-height: 120%;
+  text-align: center;
+}
+
+@media (min-width: 950px) {
+  .header,
+  .description {
+    text-align: start;
+  }
+}
